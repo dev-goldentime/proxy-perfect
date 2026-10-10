@@ -286,3 +286,49 @@ button:disabled {
   color: #172019;
   font-size: 10px;
 }
+
+
+.media-list {
+  list-style: none;
+  padding: 8px;
+  margin: 0;
+  overflow-y: auto;
+}
+
+.media-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 10px 6px;
+  border-bottom: 1px solid #30343d;
+}
+
+.media-item strong {
+  display: block;
+  overflow-wrap: anywhere;
+  font-size: 12px;
+}
+
+.media-item small {
+  display: block;
+  margin-top: 5px;
+  color: #a6e3a1;
+  font-size: 10px;
+}
+
+.media-item button,
+.media-panel button,
+.media-empty button {
+  padding: 6px 9px;
+  color: inherit;
+  background: #252933;
+  border: 1px solid #3b404b;
+  border-radius: 4px;
+  font-size: 11px;
+}
+
+.media-panel > .panel-heading button {
+  color: #111318;
+  background: #a6e3a1;
+}
